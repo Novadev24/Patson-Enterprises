@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Patson Enterprises | Furniture, Cars, Land, Motorbikes & Electronics in Kenya</title>
+  <meta name="description" content="Buy new & quality second-hand home furniture, cars, motorbikes, land, electronics and appliances in Kenya. Fast delivery countrywide." />
+  
+  <!-- Favicons -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav class="navbar section-content">
+      <a href="#home" class="logo">Patson<span style="color:#000;">Enterprises</span></a>
+      
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      
+      <div class="cart-btn" id="open-cart">
+        Cart <i class="fas fa-shopping-cart"></i>
+        <span class="cart-badge">0</span>
+      </div>
+      
+      <i id="menu-open-button" class="fas fa-bars"></i>
+      <i id="menu-close-button" class="fas fa-times"></i>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero-section" id="home">
+    <div class="section-content hero-details">
+      <h1>Patson Enterprises</h1>
+      <h2>Your Trusted Dealer in Kenya</h2>
+      <p>New & Quality Second-Hand Furniture, Cars, Land, Motorbikes, Electronics & Appliances</p>
+      <div class="buttons">
+        <a href="#products" class="btn btn-primary">Shop Now</a>
+        <a href="https://wa.me/+254700000000" class="btn btn-outline">WhatsApp Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="section-padding">
+    <div class="section-content">
+      <h2 class="section-title">Our Products</h2>
+      <p class="section-subtitle">Choose from thousands of verified items with warranty & nationwide delivery</p>
+      
+      <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search cars, furniture, land, phones..." />
+      </div>
+      
+      <div id="category-nav">
+        <button class="category-btn active" data-category="all">All Items</button>
+        <button class="category-btn" data-category="Furniture">Furniture</button>
+        <button class="category-btn" data-category="Cars">Cars</button>
+        <button class="category-btn" data-category="Land">Land & Plots</button>
+        <button class="category-btn" data-category="Motorbikes">Motorbikes</button>
+        <button class="category-btn" data-category="Electronics">Electronics</button>
+        <button class="category-btn" data-category="Appliances">Appliances</button>
+      </div>
+      
+      <div id="product-grid"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section-padding bg-light">
+    <div class="section-content">
+      <h2 class="section-title">About Patson Enterprises</h2>
+      <p class="section-subtitle">We are Kenya's trusted marketplace for quality new and second-hand goods</p>
+      
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Patson Enterprises has been serving customers across Kenya for years, specializing in high-quality furniture, vehicles, land, motorbikes, electronics, and home appliances. Every item we sell is carefully inspected and verified to ensure you get the best value for your money.</p>
+          
+          <div class="about-features">
+            <div class="feature">
+              <h3>Our Mission</h3>
+              <p>To deliver exceptional products and outstanding customer service, making quality goods accessible to every Kenyan household and business.</p>
+            </div>
+            <div class="feature">
+              <h3>Why Choose Us?</h3>
+              <ul>
+                <li>✓ Wide selection of new & pre-owned items</li>
+                <li>✓ All products verified with available warranties</li>
+                <li>✓ Fast & reliable nationwide delivery</li>
+                <li>✓ Competitive and transparent pricing</li>
+                <li>✓ Dedicated customer support team</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="https://i.pinimg.com/736x/e2/ac/85/e2ac8573878a0dc2e30b22b0674ce13c.jpg" alt="Patson Enterprises Team">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="section-padding">
+    <div class="section-content">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <p class="section-subtitle">Find answers to common questions about shopping with us</p>
+      
+      <div class="faq-container">
+        <div class="faq-item">
+          <div class="faq-question"><span>How do I place an order?</span> <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer">You can add items to cart and contact us via WhatsApp or phone to confirm and arrange payment/delivery.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question"><span>Do you offer warranties?</span> <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer">Yes! Most items come with a warranty (3–12 months). Details are provided on each product.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question"><span>Do you deliver nationwide?</span> <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer">Yes, we deliver to all counties in Kenya. Charges vary by location and item size.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question"><span>What payment methods do you accept?</span> <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer">M-Pesa, bank transfer, cash on delivery (smaller items), and installments on selected products.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section-padding bg-light">
+    <div class="section-content">
+      <h2 class="section-title">Contact Us</h2>
+      <p class="section-subtitle">Get in touch — we're here to help!</p>
+      
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Reach Us Directly</h3>
+          <p><i class="fas fa-phone"></i> <strong>Phone:</strong> +254 700 000 000</p>
+          <p><i class="fab fa-whatsapp"></i> <strong>WhatsApp:</strong> +254 700 000 000</p>
+          <p><i class="fas fa-envelope"></i> <strong>Email:</strong> info@patsonenterprises.co.ke</p>
+          <p><i class="fas fa-map-marker-alt"></i> <strong>Location:</strong> Nairobi CBD, Kenya</p>
+          
+          <div class="social-links" style="margin-top:2rem;">
+            <a href="#" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        
+        <div class="contact-form">
+          <h3>Send us a Message</h3>
+          <form id="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="tel" placeholder="Your Phone" required />
+            <input type="email" placeholder="Your Email" />
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+          <p class="form-note">We'll get back to you via WhatsApp or phone within hours.</p>
+        </div>
+      </div>
+      
+<!-- Location Map -->
+    <div class="map-container" style="margin-top:4rem;">
+    <h3 style="text-align:center; margin-bottom:1rem;">Our Location</h3>
+    <p style="text-align:center; color:var(--gray); margin-bottom:2rem;">Patson Enterprises - Kimbo, Ruiru (One Four Area) | Thika Road A2</p>
+    <iframe 
+        src="https://maps.google.com/maps?q=Kimbo,+Ruiru,+Kenya&t=&z=14&ie=UTF8&iwloc=&output=embed "
+        width="100%" 
+        height="500" 
+        style="border:0; border-radius:12px;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    <p style="text-align:center; margin-top:1rem; color:var(--gray); font-size:0.9rem;">
+        Plus Code: VXF8+326 | Find us along Thika Road A2, Kimbo, Ruiru
+    </p>
+    </div>
+  </section>
+
+  <!-- Cart Modal -->
+  <div id="cart-modal" class="modal">
+    <div class="modal-content" style="max-width:800px;">
+      <span class="close-btn" id="close-cart">&times;</span>
+      <h2 style="padding:2rem 2rem 1rem;">Your Cart</h2>
+      <div id="cart-items" style="padding:0 2rem;"></div>
+      <div style="padding:2rem; text-align:right; border-top:1px solid #ddd; margin-top:2rem;">
+        <p style="font-size:1.5rem; font-weight:700; color:var(--primary);">Total: KSh <span id="cart-total">0</span></p>
+        <button class="btn btn-primary" style="margin-top:1rem;" onclick="window.open('https://wa.me/+254700000000?text=I%20want%20to%20place%20an%20order%20for%20the%20items%20in%20my%20cart', '_blank')">
+          Checkout via WhatsApp
+        </button>
+        <button class="btn" style="background:#ccc; margin-left:1rem;" id="clear-cart">Clear Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product Detail Modal -->
+  <div id="detail-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <div class="modal-flex" id="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="section-content">
+      <h2>Patson Enterprises</h2>
+      <p>Nairobi, Kenya | Nationwide Delivery</p>
+      <div class="social-links">
+        <a href="#" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" title="Call"><i class="fas fa-phone"></i></a>
+      </div>
+      <p>&copy; 2025 Patson Enterprises. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
